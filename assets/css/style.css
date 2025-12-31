@@ -1,0 +1,52 @@
+/* --- Content Layout Improvements --- */
+
+header h1 {
+  font-size: 2.6em;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+header p {
+  opacity: 0.8;
+  font-size: 1.05em;
+}
+
+section {
+  max-width: 900px;
+  line-height: 1.7;
+}
+
+section h2 {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-size: 1.4em;
+  color: #9fb9ff;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* --- Navigation --- */
+
+nav {
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+nav a {
+  margin-right: 10px;
+  font-size: 0.95em;
+}
+
+/* --- Footer --- */
+
+footer {
+  margin-top: 80px;
+  text-align: center;
+}
