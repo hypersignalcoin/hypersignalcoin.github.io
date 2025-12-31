@@ -127,3 +127,33 @@ footer {
   margin-top: 80px;
   text-align: center;
 }
+/* ===== Layout Fix ===== */
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.box {
+  margin: 40px auto;
+  text-align: left;
+}
+
+/* Liste noktalarını kaldır */
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+/* Başlıkları ortala */
+header h1,
+header h2,
+header .tagline {
+  text-align: center;
+}
