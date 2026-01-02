@@ -273,3 +273,7 @@ section p {
   line-height: 1.7;
   opacity: 0.9;
 }
+/* Navbar fixed olduğu için sayfa içeriğini aşağı iter */
+body {
+  padding-top: 80px;
+}
