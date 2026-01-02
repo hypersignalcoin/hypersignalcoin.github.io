@@ -245,3 +245,29 @@ section p {
   color: #cfd6ff;
   margin-bottom: 40px;
 }
+/* ===== GLOBAL CONTENT RHYTHM ===== */
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.section {
+  padding: 48px 0;
+}
+
+.section + .section {
+  margin-top: 12px;
+}
+.section h2 {
+  margin-bottom: 14px;
+  font-size: 1.6rem;
+  color: #9aa4ff;
+}
+
+.section p {
+  margin-bottom: 16px;
+  line-height: 1.7;
+  opacity: 0.9;
+}
