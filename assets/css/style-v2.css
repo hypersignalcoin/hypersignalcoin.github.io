@@ -224,3 +224,24 @@ nav {
   top: 0;
   z-index: 1000;
 }
+/* ===== PAGE CONTENT ALIGNMENT FIX ===== */
+
+section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #9aa4ff;
+}
+
+section p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #cfd6ff;
+  margin-bottom: 40px;
+}
